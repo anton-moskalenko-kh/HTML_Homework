@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HW_1.1*/
+
+h1 {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 0 10px 0;
+    border-radius: 20px;
+}
+
+.image {
+    width: 100px;
+}
+
+.end {
+    text-align: center;
+}
+
+/*HW_1.2*/
+
+.common-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 840px;
+    margin: 10px auto;
+}
+
+.common-block p {
+    margin: 0;
+    padding: 15px 0 0 20px;
+}
+
+.chapter {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 0 15px 0;
+}
+
+.first {
+    background-color: #699BF7;
+}
+
+.second {
+    background-color: #C7B9FF;
+}
+
+.third {
+    background-color: #FFC700;
+}
+
+.fourth {
+    background-color: #FF8577;
+}
+
+.chapter-name {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.chapter-headline {
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+    font-weight: 900;
+}
+
+.chapter-button {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #000;
+    text-decoration: underline;
+}
+
+/*HW_1.3*/
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.main-block_card {
+    width: 290px;
+    border: 3px solid darkgreen;
+    border-radius: 5px;
+}
+
+.main-block_card h3 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px 20px 0 20px;
+    margin: 0;
+}
+
+.main-block_card p {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
