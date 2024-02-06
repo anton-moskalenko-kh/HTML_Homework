@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.first-section {
+    height: 50vh;
+    background-color: pink;
+}
+
+.second-section {
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+.text-block {
+    padding-top: 70px;
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
