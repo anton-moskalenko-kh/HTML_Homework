@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto 0 auto;
+    width: 500px;
+    border: 2px solid lightgrey;
+}
+
+.logo {
+    width: 70%;
+    margin: 35px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.login, .password {
+    width: 400px;
+    height: 40px;
+    padding: 10px 0 10px 10px;
+    margin: 0 0 10px 0;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+input[type='text']::placeholder, input[type='password']::placeholder {
+    color: #737373;
+}
+
+.button {
+    width: 414px;
+    height: 45px;
+    padding: 10px;
+    color: white;
+    background-color: #68b5fa;
+    font-size: 20px;
+    border: 2px solid #68b5fa;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+}
+
+.main-block p {
+    color: #737373;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.facebook-link {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.facebook-link img {
+    margin: 0 7px 0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.facebook-link a {
+    font-size: 18px;
+    color: #375185;
+    font-weight: 700;
+}
+
+.forget-password {
+    display: block;
+    color: #375185;
+    font-weight: 500;
+    margin: 0 0 25px 0;
+}
+
+.sing-in {
+    margin: 12px auto 0 auto;
+    width: 500px;
+    border: 2px solid lightgrey;
+}
+
+.sing-in p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.sing-in a {
+    color: #0095f6;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
