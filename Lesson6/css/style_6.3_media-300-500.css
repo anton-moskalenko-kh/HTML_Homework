@@ -1,0 +1,42 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    header {
+        height: 25vh;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    nav a {
+        width: 100%;
+        margin: 0 0 5px 0;
+    }
+    main {
+        height: 65vh;
+        margin: 0 0 5px 0;
+    }
+    .main-banner {
+        height: 40%;
+        margin: 0 0 5px 0;
+        font-size: 25px;
+    }
+    .article-block {
+        height: 60%;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    .article-block article {
+        width: 100%;
+        height: calc(24% - 5px);
+        margin: 0 0 5px 0;
+        font-size: 25px;
+    }
+
+    .article-block article:last-child {
+        margin-bottom: 0;
+    }
+    footer {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,86 @@
+body {
+    margin: 0 10px;
+}
+
+header {
+    height: calc(10vh - 10px);
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 5vh;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #0c9def;
+    margin-right: 10px;
+    border: 1px solid #0c9def;
+    border-radius: 10px;
+    color: white;
+}
+
+main {
+    height: calc(80vh - 10px);
+    margin: 0 0 10px 0;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(50% - 20px);
+    background-color: #0c9def;
+    margin: 0 0 20px 0;
+    border: 1px solid #0c9def;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+.article-block {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-block article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 10px 10px 0;
+    background-color: #0c9def;
+    border: 1px solid #0c9def;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+
+}
+
+.article-block article:nth-child(2n) {
+    margin-right: 0;
+}
+
+footer  {
+    height: calc(10vh - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c9def;
+    border: 1px solid #0c9def;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
